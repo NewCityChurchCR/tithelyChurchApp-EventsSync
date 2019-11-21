@@ -7,10 +7,7 @@ import eventsDbManager as dbm
 eventsDb=dbm.db(os.path.join(currentScriptDirectory, 'nccEventsDb.csv'))
 #eventsDb.save()
 
-#os.environ['HTTP_PROXY']='http://proxy.rockwellcollins.com:9090'
-#os.environ['HTTPS_PROXY']=os.environ['HTTP_PROXY']
-#os.environ['FTP_PROXY']=os.environ['HTTP_PROXY']
-ICAL_URL='https://outlook.office365.com/owa/calendar/a29261f7c5454557aa03c7fba115a31d@newcitycr.org/e116874f35034674ba87384239ab05df10800306611703141858/calendar.ics'
+ICAL_URL=os.environ['ICAL_URL']
 LOCAL_FILE_NAME='calendar.ics'
 
 import requests

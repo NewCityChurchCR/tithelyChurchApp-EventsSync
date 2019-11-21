@@ -1,0 +1,1 @@
+# tithelyChurchApp-EventsSync
